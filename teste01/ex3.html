@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ex3</title>
+    <link rel="stylesheet" href="ex3.css">
+</head>
+
+<body>
+    <h1>TASK_MANAGER</h1>
+    <form name="form01" id="form01">
+        <label for="txtTitle">TITULO</label>
+        <input id="txtTitle" type="text" size="50" /><br>
+        <label for="txtDesc">DESCRIÇÃO</label><br>
+        <textarea id="txtDesc" rows="10" cols="60"></textarea><br>
+        <label for="txtPriority">PRIORIDADE</label>
+        <select id="txtPriority">
+            <option value="maxima">MÁXIMA</option>
+            <option value="moderada">MODERADA</option>
+            <option value="minima">MÍNIMA</option>
+        </select><br>
+        <input type="submit" value="ADICIONAR TAREFA" />
+        <input type="reset" value="REPOR DADOS" />
+    </form>
+
+    <br><br><br>
+    <div id=tasksTable></div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-task-description"></p>
+        </div>
+
+    </div>
+
+    <script src="ex3.js"></script>
+</body>
+
+</html>
