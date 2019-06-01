@@ -21,8 +21,6 @@ function renderProverbsDiv() {
             div.appendChild(currentParagraph);
         }
     }
-
-    console.log(proverbs);
 }
 
 form.addEventListener("submit", function (e) {
