@@ -57,7 +57,6 @@ function doTask() {
 
 function renderTable(filterPriority = "all") {
 
-    console.log(filterPriority);
     let tableContainer = document.getElementById("tasksTable");
     tableContainer.innerHTML = "";
 

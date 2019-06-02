@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ex3</title>
+</head>
+
+<body>
+    <form name="form01" id="form01">
+        <label for="txtName">Nome de jogador:</label>
+        <input id="txtName" type="text" size="25" required><br>
+        <label for="txtPhoto">Link para foto:</label>
+        <input id="txtPhoto" type="url" size="25" required><br>
+        <label for="sltTeam">Clube</label>
+        <select id="sltTeam">
+            <option value="benfica">BENFICA</option>
+            <option value="porto">PORTO</option>
+            <option value="sporting">SPORTING</option>
+        </select><br>
+        <input type="submit" value="ADICIONAR">
+    </form>
+
+    <br><br><br>
+    <table id=playersTable></table>
+
+    <script src="ex3.js"></script>
+</body>
+
+</html>
